@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.2.0"
+    kotlin("jvm")
 }
 
 group = "org.example"
@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation(project("Encrypted"))
     testImplementation(kotlin("test"))
 }
 
